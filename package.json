@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "dotenv-defaults": "^5.0.2",
-    "mongoose": "^6.7.0"
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
   },
   "repository": "git@github.com:ntuee-web-programming/111-1-deploy-demo.git",
   "author": "madmaxieee <76544194+madmaxieee@users.noreply.github.com>",

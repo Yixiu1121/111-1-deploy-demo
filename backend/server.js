@@ -12,6 +12,7 @@ if (process.env.NODE_ENV === "development") {
   app.use(cors());
 }
 app.use(bodyParser.json());
+const router = express.Router()
 app.use('/api', router)
 // define routes
 app.get("/api", (req, res) => {
@@ -30,13 +31,12 @@ if (process.env.NODE_ENV === "production") {
 
 // define server
 const port = process.env.PORT || 4000;
-
 app.listen(port, () => {
   console.log(`Server is up on port ${port}.`);
 });
 
 // hw6
-const router = express.Router()
+
 var Name = ""
 var Subject = ""
 var Score = ""
